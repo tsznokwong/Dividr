@@ -16,7 +16,7 @@
 		471CB3FB1D182ECD006BCC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F91D182ECD006BCC6D /* LaunchScreen.storyboard */; };
 		471CB41F1D18315F006BCC6D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB41E1D18315F006BCC6D /* Player.swift */; };
 		471CB4211D18325E006BCC6D /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4201D18325E006BCC6D /* GameElements.swift */; };
-		471CB4231D18425C006BCC6D /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4221D18425C006BCC6D /* GameOverScene.swift */; };
+		7FFFB05B21C154340099A1EC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFB05A21C154340099A1EC /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		471CB40C1D182ECD006BCC6D /* DividrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471CB41E1D18315F006BCC6D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		471CB4201D18325E006BCC6D /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
-		471CB4221D18425C006BCC6D /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+		7FFFB05A21C154340099A1EC /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		471CB3EB1D182ECD006BCC6D /* Dividr */ = {
 			isa = PBXGroup;
 			children = (
-				471CB4221D18425C006BCC6D /* GameOverScene.swift */,
+				7FFFB05A21C154340099A1EC /* GameOverScene.swift */,
 				471CB3EC1D182ECD006BCC6D /* AppDelegate.swift */,
 				471CB3EE1D182ECD006BCC6D /* GameScene.sks */,
 				471CB3F01D182ECD006BCC6D /* GameScene.swift */,
@@ -183,7 +183,7 @@
 					471CB3E81D182ECD006BCC6D = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = V4Y7Q6HKKR;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					471CB4001D182ECD006BCC6D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -254,9 +254,9 @@
 			files = (
 				471CB4211D18325E006BCC6D /* GameElements.swift in Sources */,
 				471CB41F1D18315F006BCC6D /* Player.swift in Sources */,
+				7FFFB05B21C154340099A1EC /* GameOverScene.swift in Sources */,
 				471CB3F11D182ECD006BCC6D /* GameScene.swift in Sources */,
 				471CB3F31D182ECD006BCC6D /* GameViewController.swift in Sources */,
-				471CB4231D18425C006BCC6D /* GameOverScene.swift in Sources */,
 				471CB3ED1D182ECD006BCC6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,11 +398,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Dividr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsznok.Dividr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -411,11 +413,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Dividr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsznok.Dividr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
