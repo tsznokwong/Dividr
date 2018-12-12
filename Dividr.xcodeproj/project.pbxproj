@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		471CB3ED1D182ECD006BCC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB3EC1D182ECD006BCC6D /* AppDelegate.swift */; };
+		471CB3EF1D182ECD006BCC6D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3EE1D182ECD006BCC6D /* GameScene.sks */; };
+		471CB3F11D182ECD006BCC6D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB3F01D182ECD006BCC6D /* GameScene.swift */; };
+		471CB3F31D182ECD006BCC6D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB3F21D182ECD006BCC6D /* GameViewController.swift */; };
+		471CB3F61D182ECD006BCC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F41D182ECD006BCC6D /* Main.storyboard */; };
+		471CB3F81D182ECD006BCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F71D182ECD006BCC6D /* Assets.xcassets */; };
+		471CB3FB1D182ECD006BCC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F91D182ECD006BCC6D /* LaunchScreen.storyboard */; };
+		471CB4061D182ECD006BCC6D /* DividrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4051D182ECD006BCC6D /* DividrTests.swift */; };
+		471CB4111D182ECD006BCC6D /* DividrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4101D182ECD006BCC6D /* DividrUITests.swift */; };
+		471CB41F1D18315F006BCC6D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB41E1D18315F006BCC6D /* Player.swift */; };
+		471CB4211D18325E006BCC6D /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4201D18325E006BCC6D /* GameElements.swift */; };
+		471CB4231D18425C006BCC6D /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4221D18425C006BCC6D /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		471CB4021D182ECD006BCC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471CB3E11D182ECD006BCC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471CB3E81D182ECD006BCC6D;
+			remoteInfo = Dividr;
+		};
+		471CB40D1D182ECD006BCC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471CB3E11D182ECD006BCC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471CB3E81D182ECD006BCC6D;
+			remoteInfo = Dividr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		471CB3E91D182ECD006BCC6D /* Dividr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dividr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471CB3EC1D182ECD006BCC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		471CB3EE1D182ECD006BCC6D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		471CB3F01D182ECD006BCC6D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		471CB3F21D182ECD006BCC6D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		471CB3F51D182ECD006BCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		471CB3F71D182ECD006BCC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		471CB3FA1D182ECD006BCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		471CB3FC1D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471CB4011D182ECD006BCC6D /* DividrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471CB4051D182ECD006BCC6D /* DividrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividrTests.swift; sourceTree = "<group>"; };
+		471CB4071D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471CB40C1D182ECD006BCC6D /* DividrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471CB4101D182ECD006BCC6D /* DividrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividrUITests.swift; sourceTree = "<group>"; };
+		471CB4121D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471CB41E1D18315F006BCC6D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		471CB4201D18325E006BCC6D /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		471CB4221D18425C006BCC6D /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471CB3E61D182ECD006BCC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB3FE1D182ECD006BCC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB4091D182ECD006BCC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471CB3E01D182ECD006BCC6D = {
+			isa = PBXGroup;
+			children = (
+				471CB3EB1D182ECD006BCC6D /* Dividr */,
+				471CB4041D182ECD006BCC6D /* DividrTests */,
+				471CB40F1D182ECD006BCC6D /* DividrUITests */,
+				471CB3EA1D182ECD006BCC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		471CB3EA1D182ECD006BCC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471CB3E91D182ECD006BCC6D /* Dividr.app */,
+				471CB4011D182ECD006BCC6D /* DividrTests.xctest */,
+				471CB40C1D182ECD006BCC6D /* DividrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471CB3EB1D182ECD006BCC6D /* Dividr */ = {
+			isa = PBXGroup;
+			children = (
+				471CB4221D18425C006BCC6D /* GameOverScene.swift */,
+				471CB3EC1D182ECD006BCC6D /* AppDelegate.swift */,
+				471CB3EE1D182ECD006BCC6D /* GameScene.sks */,
+				471CB3F01D182ECD006BCC6D /* GameScene.swift */,
+				471CB4201D18325E006BCC6D /* GameElements.swift */,
+				471CB41E1D18315F006BCC6D /* Player.swift */,
+				471CB3F21D182ECD006BCC6D /* GameViewController.swift */,
+				471CB3F41D182ECD006BCC6D /* Main.storyboard */,
+				471CB3F71D182ECD006BCC6D /* Assets.xcassets */,
+				471CB3F91D182ECD006BCC6D /* LaunchScreen.storyboard */,
+				471CB3FC1D182ECD006BCC6D /* Info.plist */,
+			);
+			path = Dividr;
+			sourceTree = "<group>";
+		};
+		471CB4041D182ECD006BCC6D /* DividrTests */ = {
+			isa = PBXGroup;
+			children = (
+				471CB4051D182ECD006BCC6D /* DividrTests.swift */,
+				471CB4071D182ECD006BCC6D /* Info.plist */,
+			);
+			path = DividrTests;
+			sourceTree = "<group>";
+		};
+		471CB40F1D182ECD006BCC6D /* DividrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				471CB4101D182ECD006BCC6D /* DividrUITests.swift */,
+				471CB4121D182ECD006BCC6D /* Info.plist */,
+			);
+			path = DividrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471CB3E81D182ECD006BCC6D /* Dividr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471CB4151D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "Dividr" */;
+			buildPhases = (
+				471CB3E51D182ECD006BCC6D /* Sources */,
+				471CB3E61D182ECD006BCC6D /* Frameworks */,
+				471CB3E71D182ECD006BCC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dividr;
+			productName = Dividr;
+			productReference = 471CB3E91D182ECD006BCC6D /* Dividr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		471CB4001D182ECD006BCC6D /* DividrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471CB4181D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "DividrTests" */;
+			buildPhases = (
+				471CB3FD1D182ECD006BCC6D /* Sources */,
+				471CB3FE1D182ECD006BCC6D /* Frameworks */,
+				471CB3FF1D182ECD006BCC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471CB4031D182ECD006BCC6D /* PBXTargetDependency */,
+			);
+			name = DividrTests;
+			productName = DividrTests;
+			productReference = 471CB4011D182ECD006BCC6D /* DividrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		471CB40B1D182ECD006BCC6D /* DividrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471CB41B1D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "DividrUITests" */;
+			buildPhases = (
+				471CB4081D182ECD006BCC6D /* Sources */,
+				471CB4091D182ECD006BCC6D /* Frameworks */,
+				471CB40A1D182ECD006BCC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471CB40E1D182ECD006BCC6D /* PBXTargetDependency */,
+			);
+			name = DividrUITests;
+			productName = DividrUITests;
+			productReference = 471CB40C1D182ECD006BCC6D /* DividrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471CB3E11D182ECD006BCC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tsznok Wong";
+				TargetAttributes = {
+					471CB3E81D182ECD006BCC6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+						LastSwiftMigration = 0800;
+					};
+					471CB4001D182ECD006BCC6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+						LastSwiftMigration = 0800;
+						TestTargetID = 471CB3E81D182ECD006BCC6D;
+					};
+					471CB40B1D182ECD006BCC6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+						LastSwiftMigration = 0800;
+						TestTargetID = 471CB3E81D182ECD006BCC6D;
+					};
+				};
+			};
+			buildConfigurationList = 471CB3E41D182ECD006BCC6D /* Build configuration list for PBXProject "Dividr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 471CB3E01D182ECD006BCC6D;
+			productRefGroup = 471CB3EA1D182ECD006BCC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471CB3E81D182ECD006BCC6D /* Dividr */,
+				471CB4001D182ECD006BCC6D /* DividrTests */,
+				471CB40B1D182ECD006BCC6D /* DividrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471CB3E71D182ECD006BCC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471CB3EF1D182ECD006BCC6D /* GameScene.sks in Resources */,
+				471CB3FB1D182ECD006BCC6D /* LaunchScreen.storyboard in Resources */,
+				471CB3F81D182ECD006BCC6D /* Assets.xcassets in Resources */,
+				471CB3F61D182ECD006BCC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB3FF1D182ECD006BCC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB40A1D182ECD006BCC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471CB3E51D182ECD006BCC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471CB4211D18325E006BCC6D /* GameElements.swift in Sources */,
+				471CB41F1D18315F006BCC6D /* Player.swift in Sources */,
+				471CB3F11D182ECD006BCC6D /* GameScene.swift in Sources */,
+				471CB3F31D182ECD006BCC6D /* GameViewController.swift in Sources */,
+				471CB4231D18425C006BCC6D /* GameOverScene.swift in Sources */,
+				471CB3ED1D182ECD006BCC6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB3FD1D182ECD006BCC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471CB4061D182ECD006BCC6D /* DividrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471CB4081D182ECD006BCC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471CB4111D182ECD006BCC6D /* DividrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		471CB4031D182ECD006BCC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471CB3E81D182ECD006BCC6D /* Dividr */;
+			targetProxy = 471CB4021D182ECD006BCC6D /* PBXContainerItemProxy */;
+		};
+		471CB40E1D182ECD006BCC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471CB3E81D182ECD006BCC6D /* Dividr */;
+			targetProxy = 471CB40D1D182ECD006BCC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		471CB3F41D182ECD006BCC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471CB3F51D182ECD006BCC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		471CB3F91D182ECD006BCC6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471CB3FA1D182ECD006BCC6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471CB4131D182ECD006BCC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		471CB4141D182ECD006BCC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471CB4161D182ECD006BCC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dividr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.Dividr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		471CB4171D182ECD006BCC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dividr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.Dividr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		471CB4191D182ECD006BCC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DividrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.DividrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dividr.app/Dividr";
+			};
+			name = Debug;
+		};
+		471CB41A1D182ECD006BCC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DividrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.DividrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dividr.app/Dividr";
+			};
+			name = Release;
+		};
+		471CB41C1D182ECD006BCC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DividrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.DividrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dividr;
+			};
+			name = Debug;
+		};
+		471CB41D1D182ECD006BCC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DividrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsznok.DividrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dividr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471CB3E41D182ECD006BCC6D /* Build configuration list for PBXProject "Dividr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471CB4131D182ECD006BCC6D /* Debug */,
+				471CB4141D182ECD006BCC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471CB4151D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "Dividr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471CB4161D182ECD006BCC6D /* Debug */,
+				471CB4171D182ECD006BCC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471CB4181D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "DividrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471CB4191D182ECD006BCC6D /* Debug */,
+				471CB41A1D182ECD006BCC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471CB41B1D182ECD006BCC6D /* Build configuration list for PBXNativeTarget "DividrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471CB41C1D182ECD006BCC6D /* Debug */,
+				471CB41D1D182ECD006BCC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471CB3E11D182ECD006BCC6D /* Project object */;
+}
