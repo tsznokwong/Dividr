@@ -14,8 +14,6 @@
 		471CB3F61D182ECD006BCC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F41D182ECD006BCC6D /* Main.storyboard */; };
 		471CB3F81D182ECD006BCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F71D182ECD006BCC6D /* Assets.xcassets */; };
 		471CB3FB1D182ECD006BCC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471CB3F91D182ECD006BCC6D /* LaunchScreen.storyboard */; };
-		471CB4061D182ECD006BCC6D /* DividrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4051D182ECD006BCC6D /* DividrTests.swift */; };
-		471CB4111D182ECD006BCC6D /* DividrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4101D182ECD006BCC6D /* DividrUITests.swift */; };
 		471CB41F1D18315F006BCC6D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB41E1D18315F006BCC6D /* Player.swift */; };
 		471CB4211D18325E006BCC6D /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4201D18325E006BCC6D /* GameElements.swift */; };
 		471CB4231D18425C006BCC6D /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471CB4221D18425C006BCC6D /* GameOverScene.swift */; };
@@ -49,11 +47,7 @@
 		471CB3FA1D182ECD006BCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471CB3FC1D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471CB4011D182ECD006BCC6D /* DividrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		471CB4051D182ECD006BCC6D /* DividrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividrTests.swift; sourceTree = "<group>"; };
-		471CB4071D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471CB40C1D182ECD006BCC6D /* DividrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		471CB4101D182ECD006BCC6D /* DividrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividrUITests.swift; sourceTree = "<group>"; };
-		471CB4121D182ECD006BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471CB41E1D18315F006BCC6D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		471CB4201D18325E006BCC6D /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 		471CB4221D18425C006BCC6D /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				471CB3EB1D182ECD006BCC6D /* Dividr */,
-				471CB4041D182ECD006BCC6D /* DividrTests */,
-				471CB40F1D182ECD006BCC6D /* DividrUITests */,
 				471CB3EA1D182ECD006BCC6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				471CB3FC1D182ECD006BCC6D /* Info.plist */,
 			);
 			path = Dividr;
-			sourceTree = "<group>";
-		};
-		471CB4041D182ECD006BCC6D /* DividrTests */ = {
-			isa = PBXGroup;
-			children = (
-				471CB4051D182ECD006BCC6D /* DividrTests.swift */,
-				471CB4071D182ECD006BCC6D /* Info.plist */,
-			);
-			path = DividrTests;
-			sourceTree = "<group>";
-		};
-		471CB40F1D182ECD006BCC6D /* DividrUITests */ = {
-			isa = PBXGroup;
-			children = (
-				471CB4101D182ECD006BCC6D /* DividrUITests.swift */,
-				471CB4121D182ECD006BCC6D /* Info.plist */,
-			);
-			path = DividrUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471CB4061D182ECD006BCC6D /* DividrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471CB4111D182ECD006BCC6D /* DividrUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

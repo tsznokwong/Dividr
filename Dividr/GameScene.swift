@@ -39,7 +39,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         physicsWorld.contactDelegate = self
         addPlayer()
-        addRow(RowType.twoS)
+//        addRow(RowType.twoS)
     }
     
     func addRandomRow() {
